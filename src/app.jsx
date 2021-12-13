@@ -9,20 +9,15 @@ const App = () => {
   const [validTransaction, setValidTransaction] = React.useState(false);
   // Clears input field after form is submitted or ATM mode Changed
   const [value, setValue] = React.useState("");
-
   let status = `Available Funds $ ${totalState} `;
-  console.log(`Account Rendered with mode: ${atmMode}`);
   const handleChange = (event) => {
-    console.log(`handleChange ${event.target.value}`);
     setValue(event.target.value);
-    console.log(`handleChangedvalue ${value}`);
     setDeposit(Number(event.target.value));
     if(event.target.value<=0){
       setValidTransaction(false);
     } else if(atmMode=="Cash Back" && Number(event.target.value) >totalState){
       setValidTransaction(false);
     } else setValidTransaction(true);
-    console.log(`valid ${validTransaction}`);
   };
   const handleSubmit = (event) => {
     let newTotal = 0;
@@ -44,7 +39,6 @@ const App = () => {
     setAtmMode(event.target.value);
     // Clears input field after ATM mode Changed
     setValue("");
-    //setAtmMode(event.target.value);
     event.preventDefault();
   };
 
