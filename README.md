@@ -1,6 +1,6 @@
 # ATM-Machine
 Deposit and Withdraw funds from an Account with React
-<p>This is the code for a basic ATM Machine made with React. It originated from an assignment in Week #15 of MIT's MERN Coding Bootcamp. The challenge was to add select components for Deposit or withdrawals, hide input until deposit or withdrawal is selected, validate input so withdrawals exceeding account values disables the submit button, refractor, personalize features, and add styling.</p>
+<p>This is the code for a basic ATM Machine made with React. It originated from an assignment in Week #15 of MIT's MERN Coding Bootcamp. The challenge was to add select components for deposit or withdrawals, hide input until deposit or withdrawal is selected, validate input so withdrawals exceeding account values disables the submit button, refractor, personalize features, and add styling.</p>
 
 <h2>Features</h2>
 <ol>
