@@ -4,7 +4,7 @@ Deposit and Withdraw funds from an Account with React
 
 <h2>Features</h2>
 <ol>
-<li>React useState is used to maintain state of the list and input values for new items.</li>
+<li>React useState is used to maintain state of the account total, deposit total, atm Mode, valid transaction status, and input values for deposits.</li>
 <li>Select options added for Deposits or Withdrawals.</li>
 <li>Amount Input field disabled until Deposit or Withdrawal is selected.</li>
 <li>Input field is cleared after each transaction.</li>
