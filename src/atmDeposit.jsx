@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 const ATMDeposit = ({ onChange, atmMode, validTransaction, value }) => {
-    console.log(`ATM mode: ${atmMode}`);
       if(atmMode != "")  {  return (
             <div>
               <input id="number-input" type="number" value={value} onChange={onChange}></input>
