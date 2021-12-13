@@ -52,7 +52,7 @@ const App = () => {
   return (
     <div className="vh-100 w-100 pt-5"style={{backgroundColor: 'LightSteelBlue', marginTop:0}}>
     <form 
-    className="mx-auto shadow-lg w-75 card text-center p-3" style={{maxWidth: 400, borderRadius: 10, backgroundColor: 'MediumTurquoise'}}
+    className="mx-auto shadow-lg w-75 card text-center p-3" style={{maxWidth: 400, minWidth: 300, borderRadius: 10, backgroundColor: 'MediumTurquoise'}}
     onSubmit={handleSubmit}>
       <h2 className="pt-1">Neighborhood ATM</h2>
       
