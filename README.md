@@ -11,7 +11,7 @@ Deposit and Withdraw funds from an Account with React
 <li>Input and submit components refractored from app.js</li>
   <li>Withdrawals exceeding the account balance are disabled.</li>
 </ol>
-<img src="./atmModeNotSelected.png"/ width="30"><img src="./atmCashBackSelected.png" width="30"/><img src="./atmDepositSelected.png" width="30"/>
+<img src="./atmModeNotSelected.png"/ width="100"><img src="./atmCashBackSelected.png" width="100"/><img src="./atmDepositSelected.png" width="100"/>
 <h2>To see the ATM Machine in action follow this link:</h2>
 <a href="https://codesandbox.io/s/atm-machine-e50nn">Link to CodeSandbox</a>
 <h2>To use:</h2>
